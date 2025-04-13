@@ -110,7 +110,7 @@ export default function TodayPicks() {
   return (
     <div className="py-12 bg-gradient-to-b from-black via-emerald-900 to-black">
       <Title title="Today's Picks"/>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 wrapper">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-4 gap-3 xl:gap-5 wrapper">
         {nfts.map((data, key) => (
           <NftCard track={key} key={key} data={data} section="picks" />
         ))}
