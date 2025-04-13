@@ -14,8 +14,7 @@ export default function page() {
       <TopSellers />
       <TodayPicks />
       <Footer /> 
-      {/* 
-      */}
+   
     </div>
   );
 }
